@@ -122,5 +122,44 @@ main {
     height: auto;
     border-radius: 48px;
     margin-top: 120px;
-    
+}
+
+/* User section styles */
+
+.users-container {
+    padding: 50px 80px;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+    margin-top: 120px;
+}
+
+.users-container h3 {
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.users-data{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.users-data h1 {
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.users-data h6 {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
