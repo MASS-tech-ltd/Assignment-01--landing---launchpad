@@ -94,8 +94,11 @@ nav button:hover {
 /* Action section styles */
 
 main {
-    margin: 0 200px;
     background: #F5F8FF;
+}
+
+.main-body{
+    margin: 0 200px;
 }
 
 .action-container {
