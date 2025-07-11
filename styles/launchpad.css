@@ -143,7 +143,7 @@ main {
     margin-top: 50px;
 }
 
-.users-data{
+.users-data {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
@@ -162,4 +162,80 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Users feedback section setyles */
+
+.feedback-container {
+    margin-top: 135px;
+}
+
+.feedback-container h3 {
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    ;
+}
+
+.feedbacks {
+    display: flex;
+    gap: 24px;
+    width: 1207px;
+    margin: 0 auto;
+}
+
+.review-container {
+    border-radius: 14px;
+    border: solid #F2EDED;
+    background: rgba(255, 255, 255, 0.70);
+    margin-top: 50px;
+    padding: 26px 30px;
+}
+
+.review-container h5 {
+    color: #252432;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.review-container-des {
+    color: #252432;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    width: 320px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.reviewer-contaienr {
+    display: flex;
+}
+
+.reviewer-contaienr img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.reviewer-details {
+    margin-left: 10px;
+}
+
+.reviewer-details h6 {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reviewer-details p {
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
 }
