@@ -1,0 +1,76 @@
+/* Shared common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navbar related styles */
+
+header {
+    background-image: url(../B12A01-landing-launchpad-main/Assets/Hero-bg.png);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 220px;
+    padding: 50px 0px;
+}
+
+nav h1 {
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+nav button {
+    height: 48px;
+    padding: 12px 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #4E47FF;
+    border: none;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Banner related styles */
+
+.banner-content h1 {
+    color: #252432;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: normal;
+    width: 905px;
+    margin: 160px auto 40px auto;
+}
+
+.banner-btn button {
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.banner-btn {
+    width: 174px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+
+}
