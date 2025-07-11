@@ -41,6 +41,14 @@ nav button {
     font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav button:hover {
+    background-color: #7F7BDB;
+    /* lighter color on hover */
+    transform: translateY(-2px);
 }
 
 /* Banner related styles */
@@ -66,6 +74,14 @@ nav button {
     font-size: 16px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.banner-btn button:hover{
+    background-color: #7F7BDB;
+    /* lighter color on hover */
+    transform: translateY(-2px);
 }
 
 .banner-btn {
@@ -116,6 +132,14 @@ main {
     font-size: 16px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-content button:hover{
+    background-color: #7F7BDB;
+    /* lighter color on hover */
+    transform: translateY(-2px);
 }
 
 .action-img {
@@ -290,6 +314,14 @@ main {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.focus-btn button:hover{
+    background-color: #7F7BDB;
+    /* lighter color on hover */
+    transform: translateY(-2px);
 }
 
 .focus-img {
@@ -297,7 +329,134 @@ main {
     margin: 0 auto;
 }
 
-.focus-img img{
+.focus-img img {
     border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* Get touch section style */
+
+.get-touch-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.get-touch-heading h1 {
+    width: 528px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 97px;
+    font-weight: 700;
+
+}
+
+.get-touch-form h6 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    ;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.get-touch-input {
+    width: 500px;
+    padding: 15px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.get-touch-textarea {
+    width: 500px;
+    height: 135px;
+    padding: 20px 32px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.get-touch-form button {
+    width: 565px;
+    padding: 20px 0px;
+    align-items: center;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-touch-form button:hover{
+    background-color: #7F7BDB;
+    /* lighter color on hover */
+    transform: translateY(-2px);
+}
+
+/* Footer section styles */
+
+.footer {
+    width: 100%;
+    padding: 105px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.footer-container h1 {
+    color: #4E47FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.footer-container p {
+    width: 531px;
+    margin: 0 auto;
+    color: #8987A1;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-nav p {
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
     margin-top: 20px;
 }
