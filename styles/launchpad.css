@@ -74,3 +74,53 @@ nav button {
     padding-bottom: 200px;
 
 }
+
+/* Action section styles */
+
+main {
+    margin: 0 200px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-content h2 {
+    color: #252432;
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.action-content h5 {
+    color: #25243280;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 520px;
+    padding: 25px 0px;
+}
+
+.action-content button {
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.action-img {
+    width: 503px;
+    height: auto;
+    border-radius: 48px;
+    margin-top: 120px;
+    
+}
